@@ -1,1 +1,44 @@
-/* style */
+body {
+    margin: 0;
+    background-color: #FFFDFE;
+    padding: 0;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 550px;
+    width: 550px;
+    border: 1px solid red;
+    position: relative;
+}
+
+.color-options,
+.palette-container,
+.color-codes {
+    border: 1px solid blue;
+}
+
+.color-codes,
+.color-options {
+    left: 0;
+    right: 0;
+}
+
+.color-options {
+    position: absolute;
+    top: 0;
+    height: 90px;
+}
+
+.palette-container {
+    grid-area: p;
+    height: 100%;
+}
+
+.color-codes {
+    position: absolute;
+    bottom: 0;
+    height: 46px;
+}
