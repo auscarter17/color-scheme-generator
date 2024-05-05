@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #FFFDFE;
+    background-color: #FFFFFF;
     padding: 0;
 }
 
@@ -27,9 +27,29 @@ body {
 }
 
 .color-options {
+    display: flex;
+    justify-content: space-between;
     position: absolute;
     top: 0;
     height: 90px;
+    align-items: center;
+    padding: 0 14px;
+}
+
+.color-picker {
+    height: 42px;
+    width: 61px;
+    cursor: pointer;
+}
+
+#themes {
+    height: 42px;
+    width: 312px;
+}
+
+button {
+    height: 42px;
+    width: 123px;
 }
 
 .palette-container {
